@@ -30,7 +30,7 @@ sendMessage = function(){
             } else {
 				console.log('Mensagem enviada para Azure IoT Hub');
             }
-            setTimeout(sendMessage, 500);
+            setTimeout(sendMessage, 15000);
             });
         }
         else{console.log('Erro ao fazer leitura do sensor');}
